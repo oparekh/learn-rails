@@ -1,0 +1,3 @@
+starting to learn rails
+==
+We´ll see what´s happen...

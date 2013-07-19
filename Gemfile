@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
@@ -27,10 +27,24 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
+#learn-rails gems
+gem 'activerecord-tableless'
+gem 'bootstrap-sass'
+gem 'figaro'
+gem 'gibbon'
+gem 'high_voltage'
+gem 'simple_form','>= 3.0.0.rc'
+
+group :development do
+ gem 'better_errors'
+ gem 'quiet_assets'
+end
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
